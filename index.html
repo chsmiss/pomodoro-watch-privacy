@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>腕上番茄钟 · 隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 32px 20px 64px; max-width: 760px;
+    font: 16px/1.75 -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    color: #1c1c1e; background: #fff;
+  }
+  h1 { font-size: 26px; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 34px 0 10px; padding-top: 6px; }
+  .meta { color: #6b7280; font-size: 14px; margin-bottom: 24px; }
+  .lead {
+    background: #f4f6f8; border-left: 4px solid #ff5a4d;
+    padding: 14px 16px; border-radius: 6px; margin: 0 0 8px; font-weight: 600;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 15px; }
+  th, td { border: 1px solid #e2e5e9; padding: 9px 11px; text-align: left; vertical-align: top; }
+  th { background: #f7f8fa; font-weight: 600; }
+  code { background: #f0f1f3; padding: 1px 5px; border-radius: 4px; font-size: 14px; }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e2e5e9; color: #6b7280; font-size: 14px; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #121214; }
+    .lead { background: #1e1f23; }
+    th, td { border-color: #33353a; }
+    th { background: #1a1b1f; }
+    code { background: #26272c; }
+    footer { border-color: #33353a; }
+  }
+</style>
+</head>
+<body>
+<h1>腕上番茄钟 · 隐私政策</h1>
+<p class="meta">生效日期：2026 年 11 月 20 日 · 最近更新：2026 年 11 月 20 日</p>
+
+<p class="lead">本应用不收集、不上传、不共享任何个人信息。所有数据只保存在你自己的手表上，本应用没有联网能力。</p>
+
+<p>本隐私政策适用于华为智能手表应用「腕上番茄钟」（包名 <code>com.hansen.pomodoro</code>，以下简称"本应用"）。</p>
+
+<h2>一、我们收集哪些信息</h2>
+<p><strong>不收集任何信息。</strong></p>
+<p>本应用是一个完全离线的计时工具，没有网络访问权限，也不会读取你的账号、通讯录、位置、健康数据、心率、麦克风、摄像头或任何设备标识符。</p>
+
+<h2>二、本应用会保存哪些数据，保存在哪里</h2>
+<p>为了让功能正常工作，本应用会把以下数据<strong>保存在手表的本地存储中</strong>：</p>
+<table>
+  <thead><tr><th>数据</th><th>用途</th><th>存放位置</th></tr></thead>
+  <tbody>
+    <tr><td>专注/短休/长休时长、长休间隔、三个开关状态</td><td>记住你的设置</td><td>手表本地</td></tr>
+    <tr><td>当前计时阶段与剩余时间</td><td>退出应用后仍能准确继续计时</td><td>手表本地</td></tr>
+    <tr><td>已完成的番茄记录（日期、时间、时长）</td><td>记录页的今日/累计统计</td><td>手表本地</td></tr>
+    <tr><td>你为某条记录填写的笔记文字</td><td>在记录列表里显示</td><td>手表本地</td></tr>
+  </tbody>
+</table>
+<p>这些数据<strong>不会离开你的手表</strong>：本应用没有网络权限，也没有任何服务器。</p>
+
+<h2>三、我们如何使用这些数据</h2>
+<p>仅用于在手表上展示和计算，例如显示剩余时间、统计今日完成的番茄个数。</p>
+
+<h2>四、我们是否共享或转让这些数据</h2>
+<p><strong>不共享、不转让、不公开披露。</strong>因为数据从不上传，开发者（我们）在技术上无法访问你的任何数据。</p>
+
+<h2>五、第三方 SDK</h2>
+<p><strong>本应用未集成任何第三方 SDK</strong>，不含广告、统计、崩溃上报等组件。</p>
+
+<h2>六、权限说明</h2>
+<p>本应用仅申请以下一项权限，且只用于对应功能：</p>
+<table>
+  <thead><tr><th>权限</th><th>用途</th><th>触发时机</th></tr></thead>
+  <tbody>
+    <tr><td><code>ohos.permission.VIBRATE</code>（震动）</td><td>计时结束时通过震动提醒你</td><td>专注/休息结束，以及最后 10 秒预告</td></tr>
+  </tbody>
+</table>
+<p>不开启震动提醒时，本应用不会调用震动。</p>
+
+<h2>七、数据安全</h2>
+<p>数据存放在手表应用的本地存储区，受华为 HarmonyOS 系统的应用沙箱保护，其它应用无法读取。</p>
+
+<h2>八、数据删除</h2>
+<ul>
+  <li><strong>删除单条笔记</strong>：进入「历史记录」，点开该条记录，选择「删除这条笔记」。</li>
+  <li><strong>清空全部记录</strong>：进入「历史记录」，点击「清空记录」，再点一次确认。</li>
+  <li><strong>删除全部本地数据</strong>：在手表上卸载本应用，系统会一并清除其本地数据。</li>
+</ul>
+
+<h2>九、儿童隐私</h2>
+<p>本应用不收集任何个人信息，因此也不涉及收集儿童个人信息。</p>
+
+<h2>十、政策更新</h2>
+<p>若本政策有变更，我们会在本页面更新"最近更新"日期。由于本应用不联网、不收集联系方式，无法逐一通知，建议你在应用市场详情页查看最新版本。</p>
+
+<h2>十一、联系我们</h2>
+<p>如对本隐私政策有疑问，可通过应用市场详情页提供的开发者联系方式与我们联系。</p>
+
+<footer>
+  开发者：程奥棋 · 应用名称：腕上番茄钟 · 包名：com.hansen.pomodoro
+</footer>
+</body>
+</html>
